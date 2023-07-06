@@ -1,0 +1,78 @@
+.datatable{
+    height: 680px;
+    padding: 20px;
+    
+    .datatittle{
+        width: 100%;
+        font-size: 36px;
+        color: rgba(0, 0, 0, 0.753);
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .link{
+            color: rgb(5, 186, 26);
+            border-radius: 5px;
+            border: 1px dotted rgb(7, 240, 197);
+            font-size: 22px;
+            padding: 2px 5px ;
+            margin-right: 35px;
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.5);
+            box-shadow: 2px 4px 10px 1px rgba(200, 200, 200, 0.5);
+        }
+    }
+
+    .cellWithImg{
+        display: flex;
+        align-items: center;
+
+        .cellImg {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+    }
+    .cellWithStatus{
+        padding: 5px;
+        border-radius: 5px;
+
+        &.Approved{
+            background-color: rgba(160, 255, 51, 0.152);
+            color: rgb(25, 242, 50);
+        }
+        &.pending{
+            background-color: rgb(53, 52, 50);
+            color: rgb(229, 255, 0);
+        }
+        &.passive{
+            background-color: rgb(53, 52, 50);
+            color: rgb(230, 30, 30);
+        }
+    }
+
+    .cellAction{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        
+        .viewButton{
+            padding: 2px 5px;
+            border-radius: 5px;
+            color: darkblue;
+            border:  1px dotted rgba(0, 0, 139, 0.686);
+            
+        }
+        .deleteButton{
+            padding: 2px 5px;
+            border-radius: 5px;
+            color: rgba(211, 11, 11, 0.907);
+            border:  1px dotted rgba(200, 10, 26, 0.686);
+            cursor: pointer;
+        }
+        
+
+    }
+}

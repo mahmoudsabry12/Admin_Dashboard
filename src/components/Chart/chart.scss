@@ -1,0 +1,11 @@
+.chart{
+    display: flex;
+    flex: 5;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.5) ;
+    box-shadow: 2px 4px 10px 1px rgba(200,200,200,0.5) ;
+    padding: 10px;color: gray;
+    flex-direction: column;
+    .tittle{
+        margin-bottom: 20px;
+    }
+}

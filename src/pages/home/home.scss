@@ -1,0 +1,21 @@
+.home{
+    display: flex;
+    min-height: 100vh;
+
+    .homeContainer{
+    // display: flex;
+    flex: 6;
+    }
+    .widgets, .charts{
+        display: flex;
+        padding: 20px;
+        gap: 20px;
+    }
+    .listContainer{
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.5) ;
+        box-shadow: 2px 4px 10px 1px rgba(200,200,200,0.5) ;
+        padding: 20px;
+        margin: 20px;
+    }
+
+}

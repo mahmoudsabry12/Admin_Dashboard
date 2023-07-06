@@ -1,0 +1,83 @@
+.single{
+    display: flex;
+    height: 100%;
+
+    .singleContainer{
+        flex: 6;
+
+        .top{
+            display: flex;
+            gap: 15 px;
+            padding: 20;
+            
+            .left{
+                flex: 1;
+                padding: 20px;
+                -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.5);
+                box-shadow: 2px 4px 10px 1px rgba(200, 200, 200, 0.5);
+                position: relative;
+                margin-right: 20px;
+
+                .tittle{
+                    font-size: 22px ;
+                     color: rgb(94, 90, 90);
+
+                    margin-bottom: 15px;}
+
+                .editbutton{
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    padding: 3px 10px;
+                    font-size: 16px;
+                    color: rgb(74, 42, 236);
+                    background-color: rgb(195, 158, 244);
+                    cursor: pointer;
+                    border-radius: 0 5px ;
+                }
+                .item{
+                    display: flex;
+                    gap: 70px;
+                    .itemImg{
+                        width: 100px;
+                        height: 100px;
+                        border-radius: 50%;
+                        object-fit: cover;
+                    }
+                    .details{
+                        .itemTittle{
+                            margin-bottom: 10px;
+                            color: #555;
+                        }
+                        .detailItem{
+                            margin-bottom: 10px;
+                            font-size: 14px;
+                            .itemKey{
+                                font-weight: bold;
+                                color: gray;
+                                margin-right: 6px;
+                            }
+                            .itemValue{
+                                font-weight: 300;
+                            }
+                        }
+                    }
+                }
+            }
+            .right{
+                flex: 2;
+            }
+        }
+        .bottom{
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.5) ;
+            box-shadow: 2px 4px 10px 1px rgba(200,200,200,0.5) ;
+            padding: 20px;
+            margin-top: 20px;
+            h1{
+                margin-bottom: 15px;
+                color: #555;
+            }
+        }
+        
+    }
+}

@@ -1,0 +1,25 @@
+.table{
+    // width: 100%;
+
+    .cellWrapper{
+        display: flex;
+        align-items: center;
+        padding-left: 25px;
+        .image{
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            margin-right: 30px;
+            object-fit: cover;
+        }
+    }
+    .tableCell{
+        &.Approved{
+            color: rgb(17, 192, 134);
+        }
+        &.Pending{
+            color: rgb(212, 212, 25);
+        }
+    }
+
+}

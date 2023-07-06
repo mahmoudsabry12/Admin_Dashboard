@@ -1,0 +1,85 @@
+.featured{
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    .top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 50px;
+        margin-bottom: 15px;
+        .title{
+            font-size: 22px;
+            font-weight: bold;
+            color: rgb(73, 68, 61);    
+        }
+        .icon{
+            font-size: 20px;
+        }
+    }
+    .bottom{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 15px;
+
+
+        .featuredChart{
+            width: 100px;
+            height: 100px;
+        }
+        .title{
+            font-weight: 500;
+            color: gray;
+        }
+        .amount{
+            font-size: 30px;
+        }
+        .desc{
+            font-weight: 300;
+            font-size: 12px;
+            text-align: center;
+            color: gray;
+        }
+        .summary{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 100%;
+            margin-bottom: 10px;
+
+            .item{
+                text-align: center;
+                
+                .itemTittle{
+                    font-size: 14px;
+                    color: gray;
+                    margin-bottom: 10px;
+                }
+                .itemResult{
+                    display: flex;
+                    align-items: center;
+                    font-size: 15px;
+                    &.positive{
+                        color: rgb(3, 125, 20);
+                    }
+                    &.negative{
+                        color: rgb(252, 50, 50);
+                    }
+                }
+            }
+        //     .l{
+        //         .s{
+        //             display: flex;
+        //             align-items: center;
+        //             justify-content: space-between;
+        //             width: 100%;
+        //         }
+        //     }
+         }
+    }
+}
